@@ -79,7 +79,7 @@ export default function Home() {
                         />
                     </h1>
                 </div>
-                <div className="flex flex-wrap gap-2">
+                <div className="flex flex-wrap gap-2 md:justify-center">
                     <div className="flex xl:flex-col w-full xl:w-auto gap-2 justify-center xl:justify-between items-center">
                         {['days', 'hours', 'minutes', 'seconds'].map((unit) => (
                             <div key={unit} className={getClassNames(unit)}>
